@@ -5,14 +5,14 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     
-    &_light-theme {
+    &-light {
         margin-right: 95px;
         color: var(--light-theme-text);
     }
-    &_dark-theme {
+    &-dark {
         color: var(--dark-theme-text);
     }
-    &__accent {
+    &-accent {
         color:  var(--accept-color);
     }
 }

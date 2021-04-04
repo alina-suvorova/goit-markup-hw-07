@@ -3,14 +3,14 @@
     align-items: center;
     margin-left: auto;
 }
-.contact-list__item-mail {
+.contact-list__item:nth-child(1) {
     margin-right: 40px;
 }
 .contact-list__icon {
     fill: currentColor;
     margin-right: 10px;
 }
-.contact-list__email-link, .contact-list__tel-link {
+.contact-list__link {
     display: flex;
     align-items: center;
     font-weight: 500;
